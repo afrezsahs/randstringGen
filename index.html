@@ -4,10 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel=¨stylesheet¨ type=¨text/css¨ href=./css/style.css
-    ¨>
+    <link rel="stylesheet" type="text/css" href=./css/style.css>
 </head>
 <body>
+    <h1>random string generator</h1>
+    <form>
+      <label>Digit size </label>  <input type="text" name="many" id="many" maxlength="3 " onkeypress='return event.charCode >= 48 && event.charCode <= 57'> <br>
+ <input type="checkbox" id="up" name="case" value="upper">
+  <label for="vehicle1"> UPPERCASE </label><br>
+  <input type="checkbox" id="low" name="case" value="lower">
+  <label for="vehicle2"> lowercase </label><br>
+  <input type="checkbox" id="num" name="case" value="numb">
+  <label for="vehicle3"> number </label><br>
+   <input type="checkbox" id="sym" name="case" value="symb">
+  <label for="vehicle3"> symbol </label>
+  <br>
+  <button type="sumbit" >submit</button> <hr>
+  <label> Result: </label> <br><textarea id="result" cols="40" rows="5" readonly></textarea>
+
+   <hr>
+<div id="demo"></div>
     <script src="./script/script.js"></script>
-</body>
+    
 </html>
