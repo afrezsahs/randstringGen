@@ -42,7 +42,7 @@ let choice = [];
     console.log(choice);
     console.log(test2);
     console.log(generatestring (10,sumstring(choice)));
-   
+   selectedVal = (choice.length==0) ? 0:test2.value;
     resultbox = form.querySelector('[id="result"]')
     resultbox.value = generatestring (selectedVal,sumstring(choice));
 })

@@ -3,14 +3,15 @@ https://github.com/afrezsahs/randstringGen.git
 
 ## Logs
 [28/04/2024] : Initiating my project 
-[29/04/2024] : basic random script 
+[29/04/2024] : basic random script, basic web ui. 
 
 ## Task 
  - [x] basic scripting js;
  - [x] basic html form and button for i/o;
- - [ ] preventing undefined value;
- - [ ] input box number only;
+ - [x] preventing undefined value;
+ - [x] input box number only; 
+ - [x] bigger box;
  - [ ] copy button;
- - [ ] bigger box;
- - [-] Implemeting DOM;
- - [ ] css customisation;
+ - [ ] better ui;
+ - [ ] more ...
+ 
